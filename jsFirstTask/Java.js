@@ -24,7 +24,7 @@ let orderStatus = " ";
        if (order=="burger" || order=="shawarma" || order=="zinger"){
         validOrder = true;
         isAvailable = true;
-        alert("Your order is being prepared");;
+        alert("Your order is being prepared");
        }
        else{
         alert("Invalid order. Please try again");
