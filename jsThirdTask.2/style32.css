@@ -1,0 +1,11 @@
+#container {
+    width: 750px;
+    height: 150px;
+    border: 2px solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#paragraph {
+    margin: 10px;
+}

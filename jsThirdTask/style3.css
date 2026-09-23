@@ -1,0 +1,42 @@
+body {
+    background-color: #ce8d9b;
+    
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background-color: rgb(233, 213, 213);
+    padding: 30px;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box; 
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #c44536;
+    color: white;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}
