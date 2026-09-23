@@ -30,7 +30,7 @@ let result = "";
 for (let i = 0; i < Number.length; i++) {
     result = result + Number[i];
 
-    if ( Number[i] % 2 == 0 && Number[i + 1] % 2 == 0 && i != Number.length - 1 ) {
+    if ( Number[i] % 2 == 0 && Number[i + 1] % 2 == 0 ) {
         result = result + "-";
     }
 }
