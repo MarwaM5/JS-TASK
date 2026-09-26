@@ -9,33 +9,45 @@ function reverseNumber(number) {
     return reversed;
 }
 
-let number = prompt("Enter a number:");
+let number1 = prompt("Enter a number:");
 
-console.log(reverseNumber(number));
+console.log(reverseNumber(number1));
 
 
-for (let i = 0; i <= 15; i++) {
+function checkEvenOdd() {
 
-    if (i % 2 == 0) {
-        console.log(i + " is even");
-    } else {
-        console.log(i + " is odd");
-    }
+    for (let i = 0; i <= 15; i++) {
 
-}
+        if (i % 2 == 0) {
+            console.log(i + " is even");
+        } else {
+            console.log(i + " is odd");
+        }
 
-let Number = prompt("Enter a Number:");
-let result = "";
-
-for (let i = 0; i < Number.length; i++) {
-    result = result + Number[i];
-
-    if ( Number[i] % 2 == 0 && Number[i + 1] % 2 == 0 ) {
-        result = result + "-";
     }
 }
 
-console.log(result);
+checkEvenOdd();
+
+function insertDashes(number) {
+
+    let result = "";
+
+    for (let i = 0; i < number.length; i++) {
+
+        result = result + number[i];
+
+        if (number[i] % 2 == 0 && number[i + 1] % 2 == 0) {
+            result = result + "-";
+        }
+    }
+
+    return result;
+}
+
+let number3 = prompt("Enter a number:");
+
+console.log(insertDashes(number3));
 
 
 
