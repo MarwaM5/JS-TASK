@@ -1,0 +1,19 @@
+body {
+
+    background-color: #fff8f0;
+    text-align: center;
+    font-family:Arial;
+    
+}
+
+#menu {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.meal {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}

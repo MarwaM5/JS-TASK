@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Mansaf",
+        "price": 22,
+        "available": true
+    },
+    {
+        "name": "Sushi",
+        "price": 20,
+        "available": true
+    },
+    {
+        "name": "Pasta",
+        "price": 14,
+        "available": true
+    },
+    {
+        "name": "Caesar Salad",
+        "price": 9,
+        "available": true
+    },
+    {
+        "name": "Tiramisu",
+        "price": 10,
+        "available": true
+    },
+    {
+
+        "name": "zinger",
+        "price":"13",
+        "available":true
+    },
+    {
+        "name":"shawarma",
+        "price":19,
+        "available":true
+    },
+    {
+        "name":"burger",
+        "price":20,
+        "available":true
+    },
+    {
+        "name":"cake",
+        "price":"12",
+        "available":true
+    }
+
+]
+
